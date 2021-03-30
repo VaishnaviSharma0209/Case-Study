@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+ <body>
+    <center>
+      <div class="col-xs-12 header_div">
+        <h3>Which is better Teachable Machine or MobileNet?<img src="https://img.icons8.com/officel/2x/saving-book.png"></h3>
+      </div>
+        <div class="col-sm-6 col-xs-12 main_div">
+            <label>Webcam View</label>
+            <div id="camera"></div>
+            <button id="capture" onclick="capture_image()" class="btn btn-info">Capture Image</button>
+          </div>
+          <br>
+          <div class="col-sm-6 col-xs-12 main_div1">
+            <label>Teachable Machine-</label>
+            <div id="result_tm"></div>
+            <button id="check_tm" onclick="check_image_tm()" class="btn btn-success">Check Image</button>
+          </div>
+          <div class="col-sm-6 col-xs-12 main_div1">
+            <label>MobileNet-</label>
+            <div id="result_mn"></div>
+            <button id="check_mn" onclick="check_image_mn()" class="btn btn-success">Check Image</button>
+          </div>
+          <span>
+            <div class="col-xs-12 footer_div1">
+                <h4 class="col-xs-12 col-sm-6">
+                  <img src="blub.gif">
+                  <span id="name_tm"></span>
+                </h4>
+            </div>
+            <div class="col-xs-12 footer_div1">
+                <h4 class="col-xs-12 col-sm-6">
+                  <img src="blub.gif">
+                  <span id="name_mn"></span>
+                </h4>
+            </div>
+          </span>
+          <div class="copy_right">
+            <h4>Case studied by Vaishnavi Sharma</h4>
+          </div>
+    </center>
+    <script src="main.js"></script>
+ </body>

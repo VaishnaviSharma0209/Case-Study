@@ -1,0 +1,109 @@
+body{
+    background-color: #f5dbda;
+    font-family: 'Special Elite',cursive;
+}
+h3{
+    font-size: 30px;
+}
+.header_div{
+    color: red;
+    background-color: white;
+}
+.header_div img{
+width: 50px;
+margin-left: 30px;
+margin-bottom: 10px;
+}
+.main_div{
+    background-color: #ffd2c7;
+    margin-top: 15px;
+    padding: 10px;
+    border: 3px solid white;
+    margin-left: 38%;
+    width: 375px;
+}
+.main_div label{
+    box-shadow: 5px 5px 18px white;
+    background-color: white;
+    width: 310px;
+    margin-bottom: 0px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
+#camera{
+    width: 310px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 18px white;
+    height: 300px;
+}
+#capture{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px white;
+    border: 1px solid white;
+}
+#check_mn{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px white;
+    border: 1px solid white;
+}
+#check_tm{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px white;
+    border: 1px solid white;
+}
+#result_mn{
+    width: 310px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 18px white;
+    height: 300px;
+}
+#result_tm{
+    width: 310px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 18px white;
+    height: 300px;
+}
+.main_div1{
+    background-color: #ffd2c7;
+    margin-top: 15px;
+    padding: 10px;
+    border: 3px solid white;
+}
+.main_div1 label{
+    box-shadow: 5px 5px 18px white;
+    background-color: white;
+    width: 310px;
+    margin-bottom: 0px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
+.footer_div1{
+    margin-top: 15px;
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.footer_div1 h4{
+    background-color: white;
+    box-shadow: 5px 5px 18px white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: left;
+}
+.footer_div1 img{
+    width: 70px;
+}
+.copy_right{
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 3px;
+    text-align: center;
+}
